@@ -141,9 +141,7 @@ const SnakeGame = () => {
                         ))}
                     </div>
                 </div>
-                {
-                gameOver && <h1 className='game-over'>Game Over</h1>                
-                }
+            
             </div></>
     );
 };
